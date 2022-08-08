@@ -1,0 +1,415 @@
+html{
+  scroll-behavior: smooth;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+
+
+}
+.contenar{
+ 
+ max-width: 700px;
+ margin: auto;
+}
+.row{
+  width: 100%;
+}
+
+.row::after{
+  clear: both;
+  content: '';
+  display: block;
+  
+}
+[class*="col-"] {
+  float: left;
+  padding: 10px;
+}
+[class*="col-"] {
+  width: 100%;
+}
+
+/*header start*/
+
+header{
+  background-color: #24a19c;
+  padding: 0% 2%;
+  text-align: center;
+}
+
+.logo{
+  width: 70px;
+  height:70px; 
+  line-height: 70px;
+  text-align: center;
+  color: white;
+  border: solid 2px white;
+  border-radius: 1000px;
+  padding: 8px 5px;
+}
+nav ul li{
+  display: block;
+}
+nav ul li a{
+  display: block;
+  line-height: 70px;
+  text-decoration: none;
+  color: white;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  padding: 0px 10px;
+  transition: .4s;
+}
+
+nav ul li a:hover{
+  border-radius: 10px;
+  background-color: rgba(0,0,0,0.5)
+}
+
+/*header end*/
+
+
+
+/*bennar start*/
+#bannar-section{
+  background-image: url("/projeck 2/image2/photo-1535850452425-140ee4a8dbae.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  
+ 
+}
+.bannar-contenar{
+  padding: 50px 10px;
+  text-align: center;
+
+}
+
+.bannar-contenar h1{
+  width: 100%;
+  margin: 10px auto;
+  font-size: 3rem;
+  background-color: rgba(255,255,0,0.884);
+  border-radius:5px;
+  padding: 5px;
+}
+.bannar-contenar p{
+  width: 300px;
+  margin: 10px auto;
+  padding: 5px;
+  background: rgb(0,128,0);
+  color:white;
+  font-size: 1.3rem;
+}
+.btn{
+font-family: 'Edu VIC WA NT Beginner', cursive;
+  width: 130px;
+  padding: 10px;
+  background: rgb(0,128,0);
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: white;
+  transition: .4s;
+
+}
+.btn:hover{
+  transform: scale(1.2);
+  background-color:red;
+}
+
+/*bennar end*/
+
+
+
+/*About us start*/
+#about-us{
+  padding:1%;
+}
+.about-us-contact{
+  text-align: center;
+}
+
+.about-us-contact h3{
+  font-size: 1.9rem;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  
+}
+
+.about-us-contact p{
+  margin-bottom: 10px;
+  
+}
+
+/*About us end*/
+
+/*food manu start*/
+
+#manu-sectiin{
+  padding:1%;
+}
+
+.cad-body{
+  text-align: center;
+}
+.cad-body img{
+  max-width: 100%;
+  height:auto;
+  display: block;
+}
+.item-dasc{
+  background: rgb(165,146,146);
+}
+.item-name{
+  color: white;
+  background: green;
+  padding: 10px;
+  font-family: 'Dancing Script', cursive;
+  transition: .6s;
+}
+.item-dasc > p{
+  padding: 10px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  
+}
+  .cad{
+    margin: 5px auto;
+    width: 95%;
+    transition: .4s;
+  }
+  .cad:hover{
+   transform: scale(1.1)
+  }
+.item-name:hover{
+  background: red;
+}
+
+
+/*food manu end*/
+
+/*contact end*/
+.space img{
+  width: 100%;
+  height:250px;
+  transition: .4s;
+  box-shadow: 3px 3px 2px gray;
+}
+.space img:hover{
+  transform: scale(1.1);
+  
+}
+.space{
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+.privet{
+  font-size: 2rem;
+  margin-bottom: 5px;
+  color: yellowgreen;
+}
+.space p{
+  color: gray;
+}
+
+
+#contact{
+  padding: 1%;
+  margin-top:5px;
+}
+
+
+
+/*comtact end*/
+
+
+/*footer start*/
+footer{
+  padding: 1%;
+  color: white;
+  background: #060930;
+}
+
+footer p{
+  font-size: 0.8rem;
+  text-align: center;
+  line-height: 30px;
+  
+}
+
+.social-manus{
+  text-align: center;
+}
+
+.icon-style{
+  border: 1px solid white;
+  border-radius: 50%;
+  color: white;
+  width: 40px;
+  height: 40px;
+  font-size: 1.7rem;
+  margin: 0px 6px;
+  transition: .4s;
+  text-align: center;
+  padding:6px 5px ;
+  
+  
+}
+.icon-style:hover{
+  background-color: gray;
+  transform: scale(1.1);
+}
+
+
+/*footer end*/
+
+
+
+
+
+/* bing sreen size setup*/
+@media (max-width:399px){
+  
+.col-sm-1 {width: 8.33%;}
+.col-sm-2 {width: 16.66%;}
+.col-sm-3 {width: 25%;}
+.col-sm-4 {width: 33.33%;}
+.col-sm-5 {width: 41.66%;}
+.col-sm-6 {width: 50%;}
+.col-sm-7 {width: 58.33%;}
+.col-sm-8 {width: 66.66%;}
+.col-sm-9 {width: 75%;}
+.col-sm-10 {width: 83.33%;}
+.col-sm-11 {width: 91.66%;}
+.col-sm-12 {width: 100%;}
+
+
+
+}
+
+
+/* bing sreen size setup*/
+@media (min-width:400px){
+  
+  
+  .logo-div{
+    text-align: left;
+  }
+  nav ul{
+    text-align: right;
+  }
+  nav ul li{
+    display: inline-block;
+  }
+  nav ul li a{
+    display: inline-block;
+    transition: .4s;
+  }
+  nav ul li a:hover{
+    background-color: transparent;
+    transform: scale(1.1);
+    text-decoration: underline;
+    border-radius: 0px;
+    
+  }
+  
+  /* bannar start*/
+  
+  #bannar-section{
+    background-attachment: fixed;
+    height: 100vh;
+  }
+  
+  .bannar-contenar h1{
+   width: 70%;
+  }
+  
+  /* bannar end*/
+  
+  
+  
+  
+
+  
+  .cad{
+  width: 100%;
+  box-shadow: 3px 3px 2px gray;
+  border-radius: 10px;
+
+}
+.cad-body img{
+border-top: 1px solid gray;
+border-right: 1px solid gray;
+border-left: 1px solid gray;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+
+  
+}
+.item-dasc{
+  background: rgb(165,146,14);
+border-left: 1px solid gray;
+border-right: 1px solid gray;
+border-bottom: 1px solid gray;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
+
+
+  
+}
+.item-name{
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+  max-width:66%;
+  border-bottom-right-radius: 15px;
+}
+
+.item-dasc > p{
+  padding: 8px;
+}
+
+.solo{
+  margin: 10px;
+
+}
+
+
+/* footer start*/
+
+footer p{
+  text-align: left;
+}
+.social-manus{
+  text-align: right;
+}
+
+
+/* footer end*/
+
+  
+.col-bg-1 {width: 8.33%;}
+.col-bg-2 {width: 16.66%;}
+.col-bg-3 {width: 25%;}
+.col-bg-4 {width: 33.33%;}
+.col-bg-5 {width: 41.66%;}
+.col-bg-6 {width: 50%;}
+.col-bg-7 {width: 58.33%;}
+.col-bg-8 {width: 66.66%;}
+.col-bg-9 {width: 75%;}
+.col-bg-10 {width: 83.33%;}
+.col-bg-11 {width: 91.66%;}
+.col-bg-12 {width: 100%;}
+
+
+
+
+}
+
